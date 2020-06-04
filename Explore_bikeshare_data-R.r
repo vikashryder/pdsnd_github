@@ -116,6 +116,7 @@ source("http://pcwww.liv.ac.uk/~william/R/crosstab.r")
 crosstab(city, row.vars = "Month")
 
 # Count of users per month by gouped by cities
+print('crosstab for count of users per month by gouped by cities')
 crosstab(city, row.vars = "Month", col.vars = "City")
 
 # Percentage of users per month by gouped by cities
