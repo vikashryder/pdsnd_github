@@ -49,7 +49,7 @@ round((total_city / sum(total_city) * 100), digits = 2)
 
 # Visualizing data with ggplot
 ggplot(aes(x = City, y = Trip.Duration), data = city) +
-    geom_bar(position = 'dodge', stat = "summary", fun.y = "mean", fill = "#FF6666", colour="black") + 
+    geom_bar(position = 'dodge', stat = "summary", fun.y = "mean", fill = "blue", colour="black") + 
     ggtitle('The average travel time for users in different cities') +
     labs(y = 'Average Trip Duration', x = 'City') +
     coord_flip()
