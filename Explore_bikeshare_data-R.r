@@ -1,5 +1,5 @@
 # Importing library
-library(ggplot2)
+library(ggplot2) 
 library(lubridate) # To extract month from date
 
 ny = read.csv('new_york_city.csv')
@@ -113,6 +113,7 @@ ggplot(aes(x = Month, fill = City), data = city) +
 source("http://pcwww.liv.ac.uk/~william/R/crosstab.r")
 
 # Count and percentage of users per month
+print('crosstab for count and percentage of users per month')
 crosstab(city, row.vars = "Month")
 
 # Count of users per month by gouped by cities
