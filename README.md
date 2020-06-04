@@ -16,14 +16,23 @@ Thanks to the rise in information technologies, it is easy for a user of the sys
 
 Randomly selected data for the first six months of 2017 are provided for all three cities. All three
 of the data files contain the same core six (6) columns:
+    
     Start Time (e.g., 2017-01-01 00:07:57)
+    
     End Time (e.g., 2017-01-01 00:20:53)
+    
     Trip Duration (in seconds - e.g., 776)
+    
     Start Station (e.g., Broadway & Barry Ave)
+    
     End Station (e.g., Sedgwick St & North Ave)
+    
     User Type (Subscriber or Customer)
+
 The Chicago and New York City files also have the following two columns:
+
     Gender
+
     Birth Year
 
 ### Files used
@@ -34,7 +43,9 @@ The dataset used in the project was provided by Motivate - https://www.motivatec
 Thank you Udacity for providing the course and the necessary material for me to develop this project.
 
 Sources of help and inspiration:
+
 https://stackoverflow.com/questions/21323692/convert-seconds-to-weeks-days-hours-minutes-seconds-in-python
+
 https://docs.python.org/3/tutorial/inputoutput.html
 
 Author @vikashryder
