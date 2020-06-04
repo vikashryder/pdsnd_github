@@ -48,4 +48,6 @@ https://stackoverflow.com/questions/21323692/convert-seconds-to-weeks-days-hours
 
 https://docs.python.org/3/tutorial/inputoutput.html
 
+https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github
+
 Author @vikashryder
