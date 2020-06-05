@@ -20,7 +20,7 @@ Tasks performed:
 Explore-US-Bikeshare-Data project details - https://github.com/vikashryder/Explore_bikeshare_data-R
 
 ### Files used
-The dataset used in the project was provided by Motivate - https://www.motivateco.com/
+The dataset used in the project was provided by Motivate - https://www.motivateco.com
 
 ### Credits
 
