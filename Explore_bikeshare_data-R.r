@@ -116,11 +116,11 @@ source("http://pcwww.liv.ac.uk/~william/R/crosstab.r")
 print('crosstab for count and percentage of users per month')
 crosstab(city, row.vars = "Month")
 
-# Count of users per month by gouped by cities
+# Count of users per month by grouped by cities
 print('crosstab for count of users per month by gouped by cities')
 crosstab(city, row.vars = "Month", col.vars = "City")
 
-# Percentage of users per month by gouped by cities
+# Percentage of users per month by grouped by cities
 crosstab(city, row.vars = "Month", col.vars = "City", type = "r")
 
 system('python -m nbconvert Explore_bikeshare_data.ipynb')
